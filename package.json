@@ -1,0 +1,30 @@
+{
+  "name": "tskit",
+  "version": "1.0.0",
+  "description": "TypeScript Kit",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Open-Federation/tskit.git"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "qianyuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Open-Federation/tskit/issues"
+  },
+  "homepage": "https://github.com/Open-Federation/tskit#readme",
+  "devDependencies": {
+    "@tskit/tsconfig": "file:../tsconfig",
+    "lerna": "^3.19.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@tskit/redux-model": "file:@tskit/redux-model",
+    "@tskit/tsconfig": "file:@tskit/tsconfig"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "extends": "@tskit/tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "lib"
+  }
+}
